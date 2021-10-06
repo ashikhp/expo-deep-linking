@@ -80,7 +80,9 @@ export default function App(props) {
       // console.log("responce", response && response.notification && response.notification.request &&
       //   response.notification.request.content && response.notification.request.content.data);
       if (response.notification) {
-        Linking.openURL(`https:www.google.com`)
+        const uri = response && response.notification && response.notification.request &&
+          response.notification.request.content && response.notification.request.content.data.uri;
+        Linking.openURL(uri)
       }
     });
 
