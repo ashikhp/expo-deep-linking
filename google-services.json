@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "190607541757",
+    "project_id": "test-app-e38fd",
+    "storage_bucket": "test-app-e38fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190607541757:android:5ce7173624e5663dc6c594",
+        "android_client_info": {
+          "package_name": "com.cezcon.testapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190607541757-e2uu53m406rcf8tm49ls019jp85pv6ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPtZ-d-k6DdHsxFBEtLEQAJRYVrMf-r3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190607541757-e2uu53m406rcf8tm49ls019jp85pv6ns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
